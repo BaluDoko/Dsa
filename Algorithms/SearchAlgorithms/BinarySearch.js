@@ -13,7 +13,6 @@ const binaraySearch = (array, element) => {
     
     while(low <= high){
         let mid = Math.floor((low + high) / 2);
-    
         if(element === array[mid]){
             return `Given is find in the ${mid} position`
         }
